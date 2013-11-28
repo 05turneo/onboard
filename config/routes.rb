@@ -1,4 +1,8 @@
 Onboard::Application.routes.draw do
+
+	#to fit in with onmuauths callback urls
+	get "/auth/:provider/callback" => "social_logins#create"
+
   get "sessions/new"
   resources :users
   resources :jobs

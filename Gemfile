@@ -51,3 +51,8 @@ gem "simple_form"
 gem "geocoder"
 
 gem "activeadmin", github: "gregbell/active_admin"
+
+gem "omniauth"
+gem "omniauth-facebook"
+gem "omniauth-twitter"
+gem "omniauth-linkedin"
